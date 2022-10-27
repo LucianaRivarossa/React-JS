@@ -12,9 +12,19 @@
     animation: App-logo-spin infinite 20s linear;
   }
 }
-
+.parrafo{
+  color:black;
+}
+.boton{
+  padding:20px;
+  background-color:yellow;
+  border :none;
+  border-radius:12px;
+  width: 160px;
+  font-size:20px;
+}
 .App-header {
-  background-color: #282c34;
+  background-color:white;
   min-height: 100vh;
   display: flex;
   flex-direction: column;
