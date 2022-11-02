@@ -3,18 +3,19 @@ const NavBar = (props) => {
     return(
       <div className="navbar">
         <ul className="navbar-nav">
+             <li className="nav-item nav-logo">
+                <a href="#" className="nav-link">
+                  <span className="link-text logo">LOGO </span>
+                   <span className="link-text logo-text">Mora indumentaria </span>
+                </a>
+            </li>
             <li className="nav-item">
                 <a href="#" className="nav-link">
                    
-                   <span className="link-text logo-text">HOME </span>
+                   <span className="link-text ">Home </span>
                 </a>
             </li>
-            <li className="nav-item">
-                <a href="#" className="nav-link">
-                  
-                   <span className="link-text logo-text">PRODUCTOS </span>
-                </a>
-            </li>
+           
             <li className="nav-item">
                 <a href="#" className="nav-link">
                    
