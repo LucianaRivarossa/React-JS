@@ -3,7 +3,7 @@ import './App.css';
 import React from 'react';
 import Button from'./components/Button'
 import NavBar from'./components/NavBar'
-
+import ItemListContainer from './components/ItemListContainer';
 
 function App() {
   const saludo= () => {
@@ -18,6 +18,7 @@ function App() {
 
     <div className="App">
       <NavBar/>
+      <ItemListContainer greetings={"BIENVENIDOS ! "}/>
       <main>
         <h1>Venta de Ropa</h1>
         <p>Lorem ipsum dolor sit amet consectetur adipiscing elit tristique placerat, nisl nullam ridiculus mus pretium 

@@ -1,4 +1,7 @@
 import React from "react";
+
+import CartWidget from '../components/CartWidget';
+
 const NavBar = (props) => {
     return(
       <div className="navbar">
@@ -33,6 +36,9 @@ const NavBar = (props) => {
                    <span className="link-text">All Shop </span>
                 </a>
             </li>
+
+            <li>
+            <CartWidget/></li>
             
         </ul>
       </div>
