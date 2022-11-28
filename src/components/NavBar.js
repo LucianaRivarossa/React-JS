@@ -8,7 +8,7 @@ const NavBar = (props) => {
         <ul className="navbar-nav">
              <li className="nav-item nav-logo">
                 <a href="#" className="nav-link">
-                  <span className="link-text logo">LOGO </span>
+                  <span className="link-text logo"></span>
                    <span className="link-text logo-text">Mora indumentaria </span>
                 </a>
             </li>
@@ -37,8 +37,7 @@ const NavBar = (props) => {
                 </a>
             </li>
 
-            <li>
-            <CartWidget/></li>
+            <li className="nav-item"> <CartWidget/></li>
             
         </ul>
       </div>
